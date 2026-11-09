@@ -1,6 +1,6 @@
-/* Compétition 1.8.0 — service worker : fichiers gardés sur l’appareil pour l’utilisation hors ligne.
+/* Compétition 1.9.0 — service worker : fichiers gardés sur l’appareil pour l’utilisation hors ligne.
    Aucune donnée de l’utilisateur ne passe par ce fichier (elles restent dans le stockage local du navigateur). */
-var CACHE = 'competition-1.8.0-6e40ab1fa582';
+var CACHE = 'competition-1.9.0-6d13954e6886';
 var FICHIERS = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) {
